@@ -1,2 +1,2 @@
-# Skincare
-![Skincare](https://github.com/Edanriell/oldProjects-2/blob/master/AnimatedText/skincare.png?raw=true)
+# Montstroy
+![Montstroy](https://github.com/Edanriell/Montstroy/blob/master/montstroy.png?raw=true)
