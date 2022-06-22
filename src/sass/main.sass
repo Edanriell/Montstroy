@@ -1,0 +1,165 @@
+@import ~normalize.css
+@import './fonts/roboto'
+@import './fonts/raleway'
+@import 'header'
+@import 'promo'
+@import 'services'
+@import 'projects'
+@import 'partners'
+@import 'map'
+@import 'footer'
+@import 'notification'
+@import 'modal'
+@import 'product-modal'
+@import scroll
+
+*
+  padding: 0
+  margin: 0
+html
+  font-size: 62.5%
+  scroll-behavior: smooth
+h1,h2,h3,h4,h5,h6
+  margin: 0
+ul,li
+  list-style: none
+a
+  text-decoration: none
+  color: #000
+button,
+input
+  border: none
+body
+  font-family: 'Roboto-Regular', Georgia, 'Times New Roman', Times, serif
+  font-size: 1rem
+  font-style: normal
+  font-weight: 400
+  color: #000
+  line-height: 2
+  background: #FFF
+.container
+  width: 1170px
+  margin: 0 auto
+  padding-left: 15px
+  padding-right: 15px
+.visually-hidden
+  position: absolute
+  width: 1px
+  height: 1px
+  margin: -1px
+  border: 0
+  padding: 0
+  white-space: nowrap
+  clip-path: inset(100%)
+  clip: rect(0 0 0 0)
+  overflow: hidden
+.button-sm
+  font-family: 'Roboto-Medium', Georgia, 'Times New Roman', Times, serif
+  font-style: normal
+  font-weight: 500
+  font-size: 1.6rem
+  line-height: 2.5
+  box-sizing: border-box
+  width: 191px
+  height: 45px
+  cursor: pointer
+  &--background-color
+    transition: all 0.25s linear
+    &--filled-green
+      background-color: #00ffd7
+      color: #000000
+      &:hover
+        box-shadow: 0px 2px 4.75px 0.25px rgba(0, 255, 215, 0.6)
+.button-m
+  font-family: 'Roboto-Black'
+  font-style: normal
+  font-weight: 900
+  width: 300px
+  height: 56px
+  box-sizing: border-box
+  cursor: pointer
+  &--background-color
+    text-transform: uppercase
+    text-align: center
+    display: flex
+    justify-content: center
+    align-items: center
+    transition: all 0.25s linear
+    &--filled-green
+      font-size: 2rem
+      line-height: 1.3
+      color: #000000
+      background-color: #00ffd7
+      &:hover
+        box-shadow: 0px 2px 6.3px 0.7px rgba(0, 255, 215, 0.65)
+    &--outlined-green
+      font-size: 2rem
+      line-height: 2
+      color: #ffffff
+      border: 1px solid #97fff4
+      background-color: transparent
+      &:hover
+        box-shadow: 0px 2px 6.3px 0.7px rgba(0, 255, 215, 0.65)
+.button-hg
+  display: block
+  width: 230px
+  height: 60px
+  color: #FFF
+  cursor: pointer
+  margin: 0 auto
+  box-sizing: border-box
+  font-family: 'Raleway-Bold', Georgia, 'Times New Roman', Times, serif
+  font-size: 2.5rem
+  line-height: 2
+  letter-spacing: 1px
+  transition: all 0.25s linear
+  &:hover
+    box-shadow: 0px 3px 0px 0px rgba(0, 0, 0, 0.3)
+  &--background--black
+    background-color: #000
+  &__wrapper
+    position: relative
+.highlighted-text
+  &--color
+    &--green
+      color: #00ffd8
+.section-header
+  width: 1170px
+  margin: 0 auto
+  &__text
+    font-family: 'Raleway-Black'
+    font-style: normal
+    font-weight: 900
+    font-size: 3rem
+    line-height: 1.66
+    letter-spacing: 1.2px
+    text-transform: uppercase
+    display: flex
+    justify-content: space-between
+    align-items: center
+    &::after
+      content: ''
+      width: 868px
+      height: 2px
+      display: inline-block
+      background-color: black
+.partners-header
+  display: flex
+  align-items: center
+  &__text
+    font-family: 'Raleway-Black'
+    font-style: normal
+    font-weight: 900
+    font-size: 3rem
+    line-height: 1.66
+    letter-spacing: 1.2px
+    text-transform: uppercase
+    display: flex
+    align-items: center
+    &::after
+      content: ''
+      width: 715px
+      height: 2px
+      display: inline-block
+      background-color: black
+      margin-left: 127px

@@ -1,0 +1,66 @@
+.partners
+  padding-top: 48px
+  padding-bottom: 128px
+  &__wrapper
+.slider
+  &__wrapper
+  &__slides
+    display: flex
+    align-items: center
+.slider-slides
+  &__item
+    background: #FFF
+    border: 1px solid #ededed
+    width: 268px !important
+  &__link
+    cursor: pointer
+  &__image
+    width: 268px
+    height: 135px
+    vertical-align: middle
+    max-width: 100%
+    user-select: none
+    filter: grayscale(80%)
+    transition: all 0.25s linear
+    &:hover
+      filter: grayscale(0)
+.slider-controls
+  display: flex
+  align-items: center
+  border: 2px solid #242424
+  width: 116px
+  height: 34px
+  margin-left: 37px
+  position: relative
+  box-sizing: border-box
+  &:after
+    content: ''
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 1px
+    height: 8px
+    background-color: #242424
+    transform: translateX(-50%) translateY(-50%)
+  &__prev-partner
+    width: 100%
+    height: 100%
+    transition: all 0.20s linear
+    cursor: pointer
+    background: no-repeat url(../img/icons/arrow-black.svg) center
+    transform: rotate(180deg)
+    &:hover
+      background-color: #b2fff3
+      background-position: 26px 12px
+  &__next-partner
+    width: 100%
+    height: 100%
+    transition: all 0.20s linear
+    background: no-repeat url(../img/icons/arrow-black.svg) center
+    cursor: pointer
+    &:hover
+      background-color: #b2fff3
+      background-position: 26px 12px
+
+.shift
+  transition: left .2s ease-out

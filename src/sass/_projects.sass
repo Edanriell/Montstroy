@@ -1,0 +1,106 @@
+.projects
+  padding-top: 40px
+  padding-bottom: 116px
+  &__wrapper
+  &__list
+    display: flex
+    flex-wrap: wrap
+.project-list
+  margin-right: -4px
+  &__item
+    display: flex
+    flex-direction: column
+    margin-bottom: 4px
+    margin-right: 4px
+.project-item
+  position: relative
+  &--size--small
+    box-sizing: border-box
+    padding: 55px 10px 10px 30px
+    width: 289.3px
+    height: 290px
+    transition: all 0.16s ease-in-out
+    & > p
+      max-width: 200px
+  &--size--medium
+    box-sizing: border-box
+    padding: 55px 10px 10px 30px
+    width: 387px
+    height: 290px
+    transition: all 0.16s ease-in-out
+    & > p
+      max-width: 300px
+  &--size--large
+    box-sizing: border-box
+    padding: 55px 10px 10px 30px
+    width: 582.5px
+    height: 290px
+    transition: all 0.16s ease-in-out
+    & > p
+      max-width: 480px
+  &__name
+    font-family: 'Roboto-Black'
+    font-style: normal
+    font-weight: 900
+    font-size: 2.4rem
+    line-height: 1
+    color: #FFF
+    z-index: 2
+    margin-bottom: 20px
+  &__image--size--small
+    position: absolute
+    top: 0
+    left: 0
+    width: 289.3px
+    z-index: -1
+    vertical-align: middle
+    max-width: 100%
+    height: auto
+    filter: brightness(30%)
+    user-select: none
+  &__image--size--medium
+    position: absolute
+    top: 0
+    left: 0
+    width: 387px
+    z-index: -1
+    vertical-align: middle
+    max-width: 100%
+    height: auto
+    filter: brightness(30%)
+    user-select: none
+  &__image--size--large
+    position: absolute
+    top: 0
+    left: 0
+    width: 582.5px
+    z-index: -1
+    vertical-align: middle
+    max-width: 100%
+    height: auto
+    filter: brightness(30%)
+    user-select: none
+  &__description
+    font-size: 1.5rem
+    line-height: 1.46
+    opacity: 66%
+    color: #FFF
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1)
+  &__button
+    display: block
+    position: absolute
+    box-sizing: border-box
+    width: 46px
+    height: 34px
+    background: transparent
+    background: no-repeat url(../img/icons/arrow-light.svg) center
+    border: 2px solid rgba(255,255,255,0.34)
+    right: 10px
+    bottom: 10px
+    cursor: pointer
+    transition: all 0.25s linear
+    pointer-events: auto
+    &:hover
+      border: 2px solid #57ffe5
+      background: #00ffd7 no-repeat url(../img/icons/arrow-dark.svg) center
+      background-position: 18px 12px

@@ -1,0 +1,250 @@
+.footer
+  display: flex
+  align-items: flex-start
+  &__wrapper
+    background-color: #000000
+    border-top: 2px solid #41cdb7
+    padding-top: 64px
+    padding-bottom: 45px
+  &__footer-column
+    display: flex
+    flex-direction: column
+    &:nth-child(1)
+      min-width: 200px
+      max-width: 200px
+      margin-right: 95px
+    &:nth-child(2)
+      width: 580px
+    &:nth-child(3)
+      width: 200px
+      margin-left: 95px
+  &__company-name
+    font-size: 1.6rem
+    line-height: 2.375
+    color: #fffffe
+    letter-spacing: 0px
+    margin-top: 56px
+    opacity: 90%
+  &__social-btns-list
+    padding: 0
+    margin: 50px 0 0 0
+    display: flex
+    flex-wrap: wrap
+    max-width: 200px
+  &__form
+  &__copyright
+    font-size: 1rem
+    line-height: 2.5
+    color: #fff
+    opacity: 25%
+    text-align: center
+    margin-top: 80px // change
+  &__contacts
+    align-items: flex-start
+.footer-logotype-link
+  &__image
+    width: 141px
+    height: 60px
+.social-btns-list
+  &__item
+    display: flex
+    margin-right: 30px
+    align-items: center
+    opacity: 30%
+    transition: all 0.25s linear
+    &:hover
+      opacity: 100%
+    &:nth-child(3n)
+      margin-right: 0
+  &__link
+    width: 100%
+.social-vk
+  width: 35px
+  height: 21px
+  background: no-repeat url('../img/icons/vk.svg') center
+.social-twitter
+  width: 27px
+  height: 22px
+  background: no-repeat url('../img/icons/twitter.svg') center
+.social-facebook
+  width: 14px
+  height: 26px
+  background: no-repeat url('../img/icons/facebook.svg') center
+
+.footer-form
+  width: 580px
+  height: 580px
+  background: #FFF
+  margin-top: -249px
+  z-index: 2
+  padding: 55px 100px 35px 75px
+  box-sizing: border-box
+  &__header
+    font-family: 'Raleway-Black'
+    font-style: normal
+    font-weight: 900
+    font-size: 2.5rem
+    line-height: 2
+    letter-spacing: 1px
+    text-transform: uppercase
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 28px // change
+  &__form-group
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+  &__name-field
+    display: flex
+    flex-direction: column
+  &__phone-field
+    display: flex
+    flex-direction: column
+  &__email-field
+    display: flex
+    flex-direction: column
+    margin-top: 28px // change
+  &__message-field
+    display: flex
+    flex-direction: column
+    margin-top: 28px // change
+    margin-bottom: 28px // change
+  &__privacy-policy
+    display: flex
+    flex-direction: column
+.name-field
+  &__label
+    font-size: 2rem
+    line-height: 2.5
+    letter-spacing: 0.8px
+  &__input
+    border-bottom: 1px solid #cccccc
+    transition: all 0.25s linear
+    outline: none
+    // height: 30px
+    width: 180px
+    font-size: 1.6rem
+    &:hover
+      border-bottom: 1px solid #41cdb7
+    &:focus
+      border-bottom: 1px solid #41cdb7
+.phone-field
+  &__label
+    font-size: 2rem
+    line-height: 2.5
+    letter-spacing: 0.8px
+  &__input
+    border-bottom: 1px solid #cccccc
+    transition: all 0.25s linear
+    outline: none
+    // height: 30px
+    width: 180px
+    font-size: 1.6rem
+    &:hover
+      border-bottom: 1px solid #41cdb7
+    &:focus
+      border-bottom: 1px solid #41cdb7
+.email-field
+  width: 100%
+  &__label
+    font-size: 2rem
+    line-height: 2.5
+    letter-spacing: 0.8px
+  &__input
+    border-bottom: 1px solid #cccccc
+    transition: all 0.25s linear
+    outline: none
+    // height: 30px
+    font-size: 1.6rem
+    &:hover
+      border-bottom: 1px solid #41cdb7
+    &:focus
+      border-bottom: 1px solid #41cdb7
+.message-field
+  width: 100%
+  &__label
+    font-size: 2rem
+    line-height: 2.5
+    letter-spacing: 0.8px
+  &__input
+    border-bottom: 1px solid #cccccc
+    transition: all 0.25s linear
+    outline: none
+    // height: 30px
+    font-size: 1.6rem
+    &:hover
+      border-bottom: 1px solid #41cdb7
+    &:focus
+      border-bottom: 1px solid #41cdb7
+.privacy-policy
+  display: flex
+  justify-content: center
+  align-items: center
+  &__text
+    text-align: center
+    max-width: 300px
+    font-size: 1.2rem
+    line-height: 1.5
+    color: #999999
+    margin-bottom: 25px //change
+  &__link
+    padding-bottom: 5px
+    border-bottom: 1px dotted #999999
+    transition: all 0.25s linear
+    color: #999999
+    &:hover
+      color: #000
+      border-bottom: 1px dotted #000
+      
+.footer-contacts
+  font-size: 1.6rem
+  font-style: normal
+  &__address
+    color: #FFF
+    margin-bottom: 50px
+    line-height: 1.61
+    display: flex
+    align-items: flex-start
+    &:before
+      content: ''
+      width: 35px
+      height: 25px
+      background: no-repeat url('../img/icons/pin.png') center
+      margin-right: 15px
+  &__email
+    color: #FFF
+    margin-bottom: 45px
+    font-family: 'Roboto-Bold', Georgia, 'Times New Roman', Times, serif
+    font-style: normal
+    font-weight: 700
+    line-height: 1.61
+    display: flex
+    align-items: center
+    &:before
+      content: ''
+      width: 16px
+      height: 11px
+      background: no-repeat url('../img/icons/send.png') center
+      margin-right: 15px
+  &__number
+    font-family: 'Roboto-Bold', Georgia, 'Times New Roman', Times, serif
+    font-style: normal
+    font-weight: 700
+    line-height: 1.61
+    color: #FFF
+    display: flex
+    align-items: flex-start
+    &:before
+      content: ''
+      width: 14px
+      height: 25px
+      background: no-repeat url('../img/icons/phone.png') center
+      margin-right: 15px
+  &__description
+    color: #FFF
+    font-size: 1.3rem
+    line-height: 1.2
+    opacity: 60%
+    margin-left: 28px

@@ -1,0 +1,176 @@
+.modal
+  position: fixed
+  top: 15%
+  left: 36%
+  transform: translate(-50%, -50%)
+  background: #FFFFFF
+  box-shadow: 0px 20px 50px rgba(47, 55, 237, 0.12)
+  box-sizing: border-box
+  &__wrapper
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0,0,0,.7)
+    z-index: 4
+    font-family: 'Montserrat-Regular', sans-serif
+    display: none
+.modal-form
+  padding: 55px 100px 35px 75px
+  box-sizing: border-box
+  width: 650px
+  height: 720px
+  &__header
+    font-family: 'Raleway-Black'
+    font-style: normal
+    font-weight: 900
+    font-size: 2.5rem
+    line-height: 2
+    letter-spacing: 1px
+    text-transform: uppercase
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 28px
+    user-select: none
+  &__button
+    user-select: none
+  &__form-group
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-wrap: wrap
+  &__field
+    display: flex
+    flex-direction: column
+  &__label
+    font-size: 1.6rem
+    line-height: 2.5
+    letter-spacing: 0.8px
+    pointer-events: none
+    user-select: none
+  &__input
+    border-bottom: 1px solid #cccccc
+    transition: all 0.25s linear
+    outline: none
+    font-size: 1.4rem
+    &:hover
+      border-bottom: 1px solid #41cdb7
+    &:focus
+      border-bottom: 1px solid #41cdb7
+.name-input,
+.surname-input
+  width: 200px
+.address-input
+.phone-input,
+.email-input,
+.subjectOfDiscussion-input,
+.message-input
+  width: 100%
+.name-field
+.surname-field
+.address-field
+  margin-top: 38px
+.email-field
+  margin-top: 6px
+.phone-field
+  margin-top: 6px
+.subjectOfDiscussion-field
+  margin-top: 38px
+.message-field
+  margin-top: 6px
+  margin-bottom: 54px
+.modal-btn-close
+  position: absolute
+  top: 24px
+  right: 33px
+  width: 30px
+  height: 30px
+  background: no-repeat url("../img/icons/close-modal.svg") center
+  transition: all 0.25s ease-in-out
+  cursor: pointer
+  &:hover
+    background: no-repeat url("../img/icons/close-modal-red.svg") center
+    transform: rotate(-180deg) scale(1.2)
+.modal-btn-submit
+  position: absolute
+  bottom: 40px
+  left: 50%
+  transform: translateX(-50%)
+  height: 50px
+  width: 550px
+  background: #30ac36
+  color: #FFF
+  cursor: pointer
+  transition: all 0.2s ease-in-out
+  &:hover
+    background: #1c8121
+.modal-fade-in
+  -webkit-animation: modal-fade-in 0.3s linear both
+  animation: modal-fade-in 0.3s linear both
+@-webkit-keyframes modal-fade-in 
+  0% 
+    -webkit-transform: perspective(800px) translateZ(-80px)
+    transform: perspective(800px) translateZ(-80px)
+    opacity: 0
+  100% 
+    -webkit-transform: perspective(800px) translateZ(0)
+    transform: perspective(800px) translateZ(0)
+    opacity: 1
+@keyframes modal-fade-in 
+  0% 
+    -webkit-transform: perspective(800px) translateZ(-80px)
+    transform: perspective(800px) translateZ(-80px)
+    opacity: 0
+  100% 
+    -webkit-transform: perspective(800px) translateZ(0)
+    transform: perspective(800px) translateZ(0)
+    opacity: 1
+.modal-fade-out
+  -webkit-animation: modal-fade-out 0.15s linear both
+  animation: modal-fade-out 0.15s linear both
+@-webkit-keyframes modal-fade-out 
+  0% 
+    -webkit-transform: perspective(800px) translateZ(0)
+    transform: perspective(800px) translateZ(0)
+    opacity: 1
+  100% 
+    -webkit-transform: perspective(800px) translateZ(-80px)
+    transform: perspective(800px) translateZ(-80px)
+    opacity: 0
+@keyframes modal-fade-out 
+  0% 
+    -webkit-transform: perspective(800px) translateZ(0)
+    transform: perspective(800px) translateZ(0)
+    opacity: 1
+  100% 
+    -webkit-transform: perspective(800px) translateZ(-80px)
+    transform: perspective(800px) translateZ(-80px)
+    opacity: 0
+.fade-out 
+  -webkit-animation: fade-out 0.15s ease-out both
+  animation: fade-out 0.15s ease-out both
+@-webkit-keyframes fade-out 
+  0% 
+    opacity: 1
+  100% 
+    opacity: 0
+@keyframes fade-out 
+  0% 
+    opacity: 1
+  100% 
+    opacity: 0
+.fade-in 
+  -webkit-animation: fade-in 0.3s ease-in-out both
+  animation: fade-in 0.3s ease-in-out both
+@-webkit-keyframes fade-in 
+  0% 
+    opacity: 0
+  100% 
+    opacity: 1
+@keyframes fade-in 
+  0% 
+    opacity: 0
+  100% 
+    opacity: 1

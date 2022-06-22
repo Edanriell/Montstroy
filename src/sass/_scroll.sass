@@ -1,0 +1,58 @@
+.pageup
+  opacity: 0
+  width: 60px
+  height: 60px
+  position: fixed
+  bottom: 16%
+  right: 8%
+  z-index: 2
+  cursor: pointer
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset
+  background: #00ffd7 url("../img/icons/arrow-up.svg") no-repeat center
+  background-size: 50px 50px
+  transition: all 0.25s ease-in-out
+  &:hover
+    background: #00c9ab url("../img/icons/arrow-up.svg") no-repeat center
+    background-size: 50px 50px
+.button-fade-in
+  -webkit-animation: button-fade-in 0.25s ease-in-out both
+  animation: button-fade-in 0.25s ease-in-out both
+@-webkit-keyframes button-fade-in 
+  0% 
+    -webkit-transform: perspective(600px) translateZ(-80px)
+    transform: perspective(600px) translateZ(-80px)
+    opacity: 0
+  100% 
+    -webkit-transform: perspective(600px) translateZ(0)
+    transform: perspective(600px) translateZ(0)
+    opacity: 1
+@keyframes button-fade-in 
+  0% 
+    -webkit-transform: perspective(600px) translateZ(-80px)
+    transform: perspective(600px) translateZ(-80px)
+    opacity: 0
+  100% 
+    -webkit-transform: perspective(600px) translateZ(0)
+    transform: perspective(600px) translateZ(0)
+    opacity: 1
+.button-fade-out
+  -webkit-animation: button-fade-out 0.25s ease-in-out both
+  animation: button-fade-out 0.25s ease-in-out both
+@-webkit-keyframes button-fade-out 
+  0% 
+    -webkit-transform: perspective(600px) translateZ(0)
+    transform: perspective(600px) translateZ(0)
+    opacity: 1
+  100% 
+    -webkit-transform: perspective(600px) translateZ(-80px)
+    transform: perspective(600px)translateZ(-80px)
+    opacity: 0
+@keyframes button-fade-out 
+  0% 
+    -webkit-transform: perspective(600px) translateZ(0)
+    transform: perspective(600px) translateZ(0)
+    opacity: 1
+  100% 
+    -webkit-transform: perspective(600px) translateZ(-80px)
+    transform: perspective(600px) translateZ(-80px)
+    opacity: 0

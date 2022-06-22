@@ -1,0 +1,151 @@
+{
+  "projects": [
+    {
+      "id": "asdasd125",
+      "name": "Стадион «Футур»",
+      "fullDescription": "В целях обеспечения электроэнергией стадиона специалистами было осуществлено строительство распределительной сети мощностью 20кВ",
+      "mainImage": "image1"
+    },
+    {
+      "id": "1231231",
+      "name": "Бизнес-центр «Ореол»",
+      "fullDescription": "Специалисты провели масштабную работу по организации АСКУЭ на 694 точки учета комплекса с апартаментами",
+      "mainImage": "img/projects/2/2.jpg"
+    },
+    {
+      "id": "ashw1352156",
+      "name": "Кинотеатр «Семейный»",
+      "fullDescription": "Специалисты выполнили комплекс работ по системам учета электроэнергии",
+      "mainImage": "img/projects/3/3.jpg"
+    },
+    {
+      "id": "5315sdgs",
+      "name": "ТК «Medial»",
+      "fullDescription": "В целях обеспечения электроэнергией телевизионного комплекса было осуществлено строительство распределительной сети мощностью 20кВ",
+      "mainImage": "img/projects/4/4.jpg"
+    },
+    {
+      "id": "hgjgklgjk2462",
+      "name": "ОАО «ЭнергоНацКомпани»",
+      "fullDescription": "Компанией были выполнены строительно-монтажные и пусконаладочные работы, а также поставлены материалы и оборудование при осуществлении ремонта электросетевого имущества кабельных линий 220 кВ для ОАО «ЭнергоНацКомпани»",
+      "mainImage": "img/projects/5/5.jpg"
+    },
+    {
+      "id": "d62sd",
+      "name": "Театр «Буратино»",
+      "fullDescription": "Специалистами были проведены комплексные электро-монтажные и пуско-наладочные работы по механизации сценических подъемников в здании театра",
+      "mainImage": "img/projects/6/6.jpg"
+    },
+    {
+      "id": "dfbdfb2352525",
+      "name": "ГК «Металл +»",
+      "fullDescription": "Было проведено обследование зданий и сооружений к проектной документации в рамках реализации реконструкции блока вспомогательных отделений для литья стали",
+      "mainImage": "img/projects/7/7.jpg"
+    },
+    {
+      "id": "fhkjfedg2134523",
+      "name": "ТЦ «MegaPolis»",
+      "fullDescription": "Был выполнен комплекс аудиторских услуг по экономическому обоснованию, расчету и утверждению пакета расчетных и обосновывающих материалов по тепловым сетям",
+      "mainImage": "img/projects/8/8.jpg"
+    },
+    {
+      "id": "asdasd125",
+      "name": "ТЭЦ №23-957",
+      "fullDescription": "Специалистами компании были проведены энергетическое обследование и разработка энергетического паспорта, паспорта программы энергосбережения",
+      "mainImage": "img/projects/9/9.jpg"
+    }
+  ],
+  "collectedData": [
+    {
+      "name": "test1",
+      "phone": "1415151",
+      "email": "test1@test",
+      "message": "test",
+      "id": 1
+    },
+    {
+      "name": "test2",
+      "phone": "test2",
+      "email": "test2@test2",
+      "message": "test2",
+      "id": 2
+    },
+    {
+      "name": "test3",
+      "phone": "1231251",
+      "email": "test3@test3",
+      "message": "test3",
+      "id": 3
+    },
+    {
+      "name": "test4",
+      "phone": "141241",
+      "email": "test4@test4",
+      "message": "test4",
+      "id": 4
+    },
+    {
+      "name": " test4",
+      "phone": "test4",
+      "email": "test4@test4",
+      "message": "asdasda",
+      "id": 5
+    },
+    {
+      "name": "Test5",
+      "phone": "Test5",
+      "email": "Test5@Test5",
+      "message": "Test5Test5",
+      "id": 6
+    },
+    {
+      "name": "Test",
+      "phone": "Test",
+      "email": "Test@test.lv",
+      "message": "TEST",
+      "id": 7
+    }
+  ],
+  "feedback": [
+    {
+      "name": "test1",
+      "surname": "test1",
+      "address": "test1",
+      "email": "test1@test1",
+      "phone": "2352352",
+      "subjectOfDiscussion": "test1",
+      "message": "test1",
+      "id": 1
+    },
+    {
+      "name": "test2",
+      "surname": "test2",
+      "address": "test2",
+      "email": "test2@test2",
+      "phone": "14",
+      "subjectOfDiscussion": "test2",
+      "message": "test2",
+      "id": 2
+    },
+    {
+      "name": "test4",
+      "surname": "test4",
+      "address": "test4",
+      "email": "test4@test4",
+      "phone": "651515",
+      "subjectOfDiscussion": "test4",
+      "message": "test4",
+      "id": 3
+    },
+    {
+      "name": "Test5M",
+      "surname": "Test5M",
+      "address": "Test5M",
+      "email": "Test5M@Test5M",
+      "phone": "Test5M",
+      "subjectOfDiscussion": "Test5M",
+      "message": "Test5M",
+      "id": 4
+    }
+  ]
+}
